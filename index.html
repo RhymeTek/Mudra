@@ -11,6 +11,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+		  df-messenger {
+		   --df-messenger-bot-message: #fed136;
+		   --df-messenger-button-titlebar-color: #fed136;
+		   --df-messenger-chat-background-color: white;
+		   --df-messenger-font-color: white;
+		   --df-messenger-send-icon: #fed136;
+		   --df-messenger-user-message: #2b2b2b;
+		  }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -204,6 +215,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		 <df-messenger
+			intent="WELCOME"
+			chat-title="Arya"
+			agent-id="f1cb77a8-d61a-47ee-9094-f4bfb7e6665b"
+			chat-icon="img/Arya.png"
+			language-code="en"
+		 ></df-messenger>
 
 	</body>
 </html>
